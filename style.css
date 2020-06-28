@@ -1,0 +1,81 @@
+body {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: 'Lato';
+    line-height: 1.5;
+    color: black;
+}
+
+main {
+    padding: 5px 40px;
+    background: rgb(140, 140, 247);
+}
+
+.logo,
+.name-trader,
+.headline {
+    margin: 0px;
+    text-align: center;
+}
+
+img {
+    margin-top: 20px;
+}
+
+.concerts {
+    margin: 40px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.concerts table {
+    background: lightblue;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.header-2 {
+    width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.menu-urls {
+    height: 80px;
+    border-bottom: 4px solid black;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: black;
+    margin-left: 15px;
+    height: 30px;
+}
+
+.menu ul li a:hover {
+    color: beige;
+}
+
+.menu ul li:hover {
+    border-bottom: 3px solid beige;
+}
+
+.menu ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.menu {
+    width: 100%;
+    float: left;
+}
+
+.col-100 {
+    width: 100%;
+    float: right;
+    position: relative;
+}
